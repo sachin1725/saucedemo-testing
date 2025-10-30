@@ -1,0 +1,70 @@
+# ==========================
+# Maven / Java Build Artifacts
+# ==========================
+target/
+test-output/
+*.class
+*.log
+
+# ==========================
+# Eclipse / VS Code Metadata
+# ==========================
+.project
+.classpath
+.settings/
+.vscode/
+
+# ==========================
+# System Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# IntelliJ (if used)
+# ==========================
+.idea/
+*.iml
+out/
+
+# ==========================
+# Temporary & Cache Files
+# ==========================
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# ==========================
+# Test Data / Generated Reports
+# ==========================
+reports/
+extent-reports/
+screenshots/
+logs/
+allure-results/
+allure-report/
+surefire-reports/
+
+# ==========================
+# Java / Selenium Specific
+# ==========================
+bin/
+.metadata/
+testing/               # local testing folder if not part of src
+# comment ↑ if "testing" is your actual test source folder
+
+# ==========================
+# OS-specific
+# ==========================
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ==========================
+# Environment / Credentials
+# ==========================
+*.env
+*.credentials
+*.key
+*.keystore
