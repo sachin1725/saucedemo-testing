@@ -41,8 +41,12 @@ public class LoginPage {
         return new ProductPage(driver);
     }
 
-    public String getErrorMessage(){
+    public String getErrorMessageText(){
         return wait.until(ExpectedConditions.visibilityOfElementLocated(errorMsg)).getText();
+    }
+    
+    public WebElement getErrorMessage(){
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("error-message-container")));
     }
 
     public String getLoggedInUsername(){
